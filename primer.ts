@@ -9,4 +9,4 @@ let totalValue = products
     .filter(item => item.stock > 0)
     .reduce((prev, item) => prev + (item.price * item.stock), 0);
 
-console.log("Total value: $" + totalValue.toFixed(2));
+console.log("Total value: $" + totalValue.toFixed(2)); 
