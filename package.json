@@ -1,0 +1,35 @@
+{
+  "name": "javascript-primer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run tscwatch\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tscwatch": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j7an/javascript-primer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j7an/javascript-primer/issues"
+  },
+  "homepage": "https://github.com/j7an/javascript-primer#readme",
+  "dependencies": {
+    "classlist.js": "^1.1.20150312",
+    "core-js": "^2.4.1",
+    "systemjs": "^0.20.12"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.1"
+  }
+}
